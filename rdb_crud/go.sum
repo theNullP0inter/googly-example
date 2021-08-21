@@ -582,12 +582,16 @@ github.com/theNullP0inter/gly_gorm v0.0.0-20210819161502-914192166972 h1:H7ZwutC
 github.com/theNullP0inter/gly_gorm v0.0.0-20210819161502-914192166972/go.mod h1:q2EvIl+u2YSCxJ/znZK+E6b3C2f6ST+dIrZS+Z0vroI=
 github.com/theNullP0inter/gly_gorm v0.0.0-20210820135157-91a228d785cd h1:BuFpD66N2Yrk0Lukj4c1TXXhKCFuiP7roNu36ykI1r4=
 github.com/theNullP0inter/gly_gorm v0.0.0-20210820135157-91a228d785cd/go.mod h1:jFJCOAgsEsDYVIpp0qNJCY0jSrEGm8i1PQYult4cY2o=
+github.com/theNullP0inter/gly_gorm v0.0.0-20210821075536-7dbc2fca9bb6 h1:1jQsJFQcW2Hez2VNAWr2WcI2Evj8hhOLHh9Q3yx8MMk=
+github.com/theNullP0inter/gly_gorm v0.0.0-20210821075536-7dbc2fca9bb6/go.mod h1:RABx1Wgw7+cPugoXDDwWI4QxpxKSx3aXekXibdp2mvs=
 github.com/theNullP0inter/gly_logrus v0.0.0-20210819161318-8c7c92ea293e h1:QaiO2kIqsQoT7gy9rSAMuo2e28hfXACWt3MUKJeCfvk=
 github.com/theNullP0inter/gly_logrus v0.0.0-20210819161318-8c7c92ea293e/go.mod h1:3lE2PoV6pMhGDrKFyTrhBHZQ0FzbzXxXQ1sOPzUfc9w=
 github.com/theNullP0inter/googly v0.0.0-20210816140803-8c1c58cc372d h1:VGL2dxnL/qlYCk2R7N1w0Mq70Egu+Qs3hSaMCo6wOsQ=
 github.com/theNullP0inter/googly v0.0.0-20210816140803-8c1c58cc372d/go.mod h1:ShAayoRj4FhuQgucwNtKxEoYXjuygZnGV+BVoT6tvtI=
 github.com/theNullP0inter/googly v0.0.0-20210820125037-315445acde35 h1:m3xyNSxD9KMCHQ9NPNAJKzYiEG6Mw6NBTXGZmGFQnQ8=
 github.com/theNullP0inter/googly v0.0.0-20210820125037-315445acde35/go.mod h1:ShAayoRj4FhuQgucwNtKxEoYXjuygZnGV+BVoT6tvtI=
+github.com/theNullP0inter/googly v0.0.0-20210821074943-ca8e0520a722 h1:yNpINnanLXhTvh/qH2PRlxa44MHygua3CiIah/6aJpE=
+github.com/theNullP0inter/googly v0.0.0-20210821074943-ca8e0520a722/go.mod h1:Tcx/MFoJJfMtwv2U6m6R6g9zGxWQMm0BOQRrWyGYro0=
 github.com/thedevsaddam/govalidator v1.9.10/go.mod h1:Ilx8u7cg5g3LXbSS943cx5kczyNuUn7LH/cK5MYuE90=
 github.com/tidwall/pretty v0.0.0-20180105212114-65a9db5fad51/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=
 github.com/tidwall/pretty v1.0.0/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=
