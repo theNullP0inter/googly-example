@@ -3,11 +3,11 @@ package main
 import (
 	"github.com/sarulabs/di/v2"
 	"github.com/spf13/viper"
+	googly_logrus "github.com/theNullP0inter/gly_logrus"
+	mongo_db "github.com/theNullP0inter/gly_mongo"
 	"github.com/theNullP0inter/googly"
-	googly_logrus "github.com/theNullP0inter/googly/contrib/logrus"
-	"github.com/theNullP0inter/googly/contrib/mongo_db"
-	"github.com/theNullP0inter/googly/example/mongo_crud/accounts"
-	"github.com/theNullP0inter/googly/example/mongo_crud/consts"
+	"github.com/theNullP0inter/googly-example/mongo_crud/accounts"
+	"github.com/theNullP0inter/googly-example/mongo_crud/consts"
 	"github.com/theNullP0inter/googly/ingress"
 )
 

@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/sarulabs/di/v2"
-	gin_contrib "github.com/theNullP0inter/googly/contrib/gin"
-	"github.com/theNullP0inter/googly/example/mongo_crud/consts"
+	gin_contrib "github.com/theNullP0inter/gly_gin"
+	"github.com/theNullP0inter/googly-example/mongo_crud/consts"
 )
 
 type MainGinConnector struct{}

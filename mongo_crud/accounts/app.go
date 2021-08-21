@@ -5,7 +5,7 @@ import (
 	"github.com/theNullP0inter/googly"
 	"go.mongodb.org/mongo-driver/mongo"
 
-	"github.com/theNullP0inter/googly/example/mongo_crud/consts"
+	"github.com/theNullP0inter/googly-example/mongo_crud/consts"
 	"github.com/theNullP0inter/googly/logger"
 )
 

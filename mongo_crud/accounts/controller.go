@@ -1,8 +1,8 @@
 package accounts
 
 import (
-	gin_contrib "github.com/theNullP0inter/googly/contrib/gin"
-	"github.com/theNullP0inter/googly/contrib/rdb"
+	gin_contrib "github.com/theNullP0inter/gly_gin"
+	rdb "github.com/theNullP0inter/gly_gorm"
 	"github.com/theNullP0inter/googly/logger"
 )
 

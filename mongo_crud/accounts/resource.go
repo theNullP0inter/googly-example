@@ -1,7 +1,7 @@
 package accounts
 
 import (
-	"github.com/theNullP0inter/googly/contrib/mongo_db"
+	mongo_db "github.com/theNullP0inter/gly_mongo"
 	"github.com/theNullP0inter/googly/logger"
 	"go.mongodb.org/mongo-driver/mongo"
 )

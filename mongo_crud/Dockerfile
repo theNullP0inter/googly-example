@@ -25,7 +25,7 @@ RUN go mod verify
 COPY . .
 
 # RUN go test ./...
-RUN cd ./example/mongo_crud && go build \
+RUN go build \
     -installsuffix 'static' \
     -o /app
 
