@@ -12,7 +12,7 @@ require (
 	github.com/theNullP0inter/gly_gin v0.0.0-20210819160919-49addf973184
 	github.com/theNullP0inter/gly_logrus v0.0.0-20210819161318-8c7c92ea293e
 	github.com/theNullP0inter/gly_mongo v0.0.0-20210821075813-3a65610d90ad
-	github.com/theNullP0inter/googly v0.0.0-20210821074943-ca8e0520a722
+	github.com/theNullP0inter/googly v0.0.0-20210821094306-e0856a51d222
 	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a // indirect
 	go.mongodb.org/mongo-driver v1.7.1
 	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5 // indirect

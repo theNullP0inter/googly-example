@@ -564,13 +564,13 @@ github.com/theNullP0inter/gly_gin v0.0.0-20210819160919-49addf973184 h1:Sw8+Sws9
 github.com/theNullP0inter/gly_gin v0.0.0-20210819160919-49addf973184/go.mod h1:nm+weiyCFHIPkNPXnfnKHF8tLl1wwRST0p5tfQFSoQI=
 github.com/theNullP0inter/gly_logrus v0.0.0-20210819161318-8c7c92ea293e h1:QaiO2kIqsQoT7gy9rSAMuo2e28hfXACWt3MUKJeCfvk=
 github.com/theNullP0inter/gly_logrus v0.0.0-20210819161318-8c7c92ea293e/go.mod h1:3lE2PoV6pMhGDrKFyTrhBHZQ0FzbzXxXQ1sOPzUfc9w=
-github.com/theNullP0inter/gly_mongo v0.0.0-20210821065109-3a4d36332bb9/go.mod h1:SJarwZ1a9q3pxIiFI884ngXsafjzprNYBZnNIoRYG3s=
 github.com/theNullP0inter/gly_mongo v0.0.0-20210821075813-3a65610d90ad h1:AOoyCidt6xSAjFkp1AH/lW5VwdT8Fv3mGFIthnEfaEo=
 github.com/theNullP0inter/gly_mongo v0.0.0-20210821075813-3a65610d90ad/go.mod h1:n8HAN98vf+Tq4tIy4r8NycpcaUo5woXoRh5b1pHvXF4=
 github.com/theNullP0inter/googly v0.0.0-20210816140803-8c1c58cc372d/go.mod h1:ShAayoRj4FhuQgucwNtKxEoYXjuygZnGV+BVoT6tvtI=
-github.com/theNullP0inter/googly v0.0.0-20210820125037-315445acde35/go.mod h1:ShAayoRj4FhuQgucwNtKxEoYXjuygZnGV+BVoT6tvtI=
 github.com/theNullP0inter/googly v0.0.0-20210821074943-ca8e0520a722 h1:yNpINnanLXhTvh/qH2PRlxa44MHygua3CiIah/6aJpE=
 github.com/theNullP0inter/googly v0.0.0-20210821074943-ca8e0520a722/go.mod h1:Tcx/MFoJJfMtwv2U6m6R6g9zGxWQMm0BOQRrWyGYro0=
+github.com/theNullP0inter/googly v0.0.0-20210821094306-e0856a51d222 h1:gCvZGUAc+JrddzeP3ls9alJFBczNbbTiWdQjf05vc2s=
+github.com/theNullP0inter/googly v0.0.0-20210821094306-e0856a51d222/go.mod h1:Tcx/MFoJJfMtwv2U6m6R6g9zGxWQMm0BOQRrWyGYro0=
 github.com/thedevsaddam/govalidator v1.9.10/go.mod h1:Ilx8u7cg5g3LXbSS943cx5kczyNuUn7LH/cK5MYuE90=
 github.com/tidwall/pretty v0.0.0-20180105212114-65a9db5fad51/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=
 github.com/tidwall/pretty v1.0.0/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=

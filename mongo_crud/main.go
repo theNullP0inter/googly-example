@@ -15,9 +15,9 @@ var INSTALLED_APPS = []googly.App{
 	&accounts.AccountsApp{},
 }
 
-type MainGooglyInterface struct{}
+type MainGooglyRunner struct{}
 
-func (a *MainGooglyInterface) Inject(builder *di.Builder) {
+func (a *MainGooglyRunner) Inject(builder *di.Builder) {
 	builder.Add(di.Def{
 		Name: consts.Logger,
 		Build: func(ctn di.Container) (interface{}, error) {
@@ -37,7 +37,7 @@ func (a *MainGooglyInterface) Inject(builder *di.Builder) {
 	})
 }
 
-func (a *MainGooglyInterface) GetIngressPoints(cnt di.Container) []ingress.Ingress {
+func (a *MainGooglyRunner) GetIngressPoints(cnt di.Container) []ingress.Ingress {
 	return []ingress.Ingress{
 		NewMainGinIngress(cnt, 8080),
 	}
@@ -45,10 +45,7 @@ func (a *MainGooglyInterface) GetIngressPoints(cnt di.Container) []ingress.Ingre
 }
 
 func main() {
-	g := &googly.Googly{
-		GooglyInterface: &MainGooglyInterface{},
-		InstalledApps:   INSTALLED_APPS,
-	}
+	g := &googly.Googly{GooglyRunner: &MainGooglyRunner{}, InstalledApps: INSTALLED_APPS}
 
 	googly.Run(g)
 

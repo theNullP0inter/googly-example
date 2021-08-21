@@ -4,9 +4,9 @@ import (
 	"github.com/sarulabs/di/v2"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
-	"github.com/theNullP0inter/googly"
+	rdb "github.com/theNullP0inter/gly_gorm"
 	googly_logrus "github.com/theNullP0inter/gly_logrus"
-	rdb"github.com/theNullP0inter/gly_gorm"
+	"github.com/theNullP0inter/googly"
 	"github.com/theNullP0inter/googly-example/rdb_crud/accounts"
 	"github.com/theNullP0inter/googly-example/rdb_crud/consts"
 	"github.com/theNullP0inter/googly/ingress"
@@ -17,9 +17,9 @@ var INSTALLED_APPS = []googly.App{
 	&accounts.AccountsApp{},
 }
 
-type MainGooglyInterface struct{}
+type MainGooglyRunner struct{}
 
-func (a *MainGooglyInterface) Inject(builder *di.Builder) {
+func (a *MainGooglyRunner) Inject(builder *di.Builder) {
 	builder.Add(di.Def{
 		Name: consts.Logger,
 		Build: func(ctn di.Container) (interface{}, error) {
@@ -39,7 +39,7 @@ func (a *MainGooglyInterface) Inject(builder *di.Builder) {
 	})
 }
 
-func (a *MainGooglyInterface) GetIngressPoints(cnt di.Container) []ingress.Ingress {
+func (a *MainGooglyRunner) GetIngressPoints(cnt di.Container) []ingress.Ingress {
 	return []ingress.Ingress{
 		NewMainGinIngress(cnt, 8080),
 		NewMainMigrationIngress(cnt),
@@ -48,9 +48,6 @@ func (a *MainGooglyInterface) GetIngressPoints(cnt di.Container) []ingress.Ingre
 }
 
 func main() {
-	g := &googly.Googly{
-		GooglyInterface: &MainGooglyInterface{},
-		InstalledApps:   INSTALLED_APPS,
-	}
+	g := &googly.Googly{GooglyRunner: &MainGooglyRunner{}, InstalledApps: INSTALLED_APPS}
 	googly.Run(g)
 }

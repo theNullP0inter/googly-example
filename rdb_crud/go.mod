@@ -14,7 +14,7 @@ require (
 	github.com/theNullP0inter/gly_gin v0.0.0-20210819160919-49addf973184
 	github.com/theNullP0inter/gly_gorm v0.0.0-20210821075536-7dbc2fca9bb6
 	github.com/theNullP0inter/gly_logrus v0.0.0-20210819161318-8c7c92ea293e
-	github.com/theNullP0inter/googly v0.0.0-20210821074943-ca8e0520a722
+	github.com/theNullP0inter/googly v0.0.0-20210821094306-e0856a51d222
 	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5 // indirect
 	gorm.io/driver/mysql v1.1.2
 	gorm.io/gorm v1.21.13
