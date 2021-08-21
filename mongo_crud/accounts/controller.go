@@ -2,13 +2,13 @@ package accounts
 
 import (
 	gin_contrib "github.com/theNullP0inter/gly_gin"
-	rdb "github.com/theNullP0inter/gly_gorm"
 	"github.com/theNullP0inter/googly/logger"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 type AccountSerializer struct {
-	ID       rdb.BinID `copier:"must" json:"id"`
-	Username string    `copier:"must" json:"username"`
+	ID       primitive.ObjectID `copier:"must" json:"id"`
+	Username string             `copier:"must" json:"username"`
 }
 
 type AccountCreateRequestSerializer struct {
