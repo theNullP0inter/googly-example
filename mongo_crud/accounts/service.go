@@ -13,7 +13,7 @@ type AccountService struct {
 	*service.BaseCrudDbService
 }
 
-func NewAccountService(logger logger.GooglyLoggerInterface, rm AccountResourceManagerInterface) AccountServiceInterface {
+func NewAccountService(logger logger.GooglyLogger, rm AccountResourceManagerInterface) AccountServiceInterface {
 	ser := service.NewBaseCrudDbService(logger, rm)
 	return &AccountService{
 		ser,
